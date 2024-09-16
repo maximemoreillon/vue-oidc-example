@@ -19,6 +19,7 @@ const oidcOptions = {
 
 const auth = new OidcAuth(oidcOptions)
 auth.init().then((user) => {
+  if(!user) return
   authStore.setUser(user)
   app.mount("#app")
 })
