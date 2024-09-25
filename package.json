@@ -11,7 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@moreillon/oidc-auth": "^1.0.2",
+    "@moreillon/oidc-auth": "^1.1.2",
     "pinia": "^2.2.2",
     "vue": "^3.4.29",
     "vue-router": "^4.4.4"
